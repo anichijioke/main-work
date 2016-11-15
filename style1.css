@@ -1,0 +1,97 @@
+@charset "utf-8";
+.wrapper {
+	background-color: #03C;
+	float: center;
+	height: 700px;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.button {
+	float: left;
+	height: 100px;
+	width: 19.87%;
+	color: #C63;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #FFF;
+}
+.button a {
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: 60%;
+	width: 100%;
+	padding-top: 20%;
+}
+
+.navbar {
+	float: left;
+	height: 100px;
+	width: 800px;
+	background-color: #3c9;
+	background:linear-gradient(grey, black);
+}
+.image {
+	background-color: #FF6;
+	float: left;
+	height: 200px;
+	width: 800px;
+}
+
+.welcome {
+	background-color:#999 ;
+	float: left;
+	height: 50px;
+	width: 500px;
+}
+.news {
+	background-color:#000;
+	height: 50px;
+	width: 300px;
+	float: left;
+	}
+.cj1 {
+	background-color: #0FF;
+	float: left;
+	height: 200px;
+	width: 200px;
+	transition-property:all;
+	transition-duration:3s;
+}
+.ani-color {
+	width:200px;
+	height:200px;
+	float:left;
+	background-color:blue;
+	animation-name:animate-color;
+	animation-duration:4s;
+	animation-timing-function:ease-in-out;
+	animation-iteration-count:infinite;
+}
+
+	@keyframes animate-color{
+		0%{background-color:blue; font-size:36px;}
+		50%{background-color:red; font-size:18px;}
+		100%{background-color:blue; font-size:36px;}
+}
+
+.cj1:hover{
+	transform:translate(20px, 20px);
+	/*note the function of this rotate*/
+	transform:rotate(45deg);
+	height:300px;
+	width:300px;
+	background-color:#F03;
+	}
+
+.cj{
+	width:200px;
+	height:300px;
+	float:left;
+	background-color:#9F0;
+	border-radius:100px;
+	box-shadow:20px 20px 10px #000;
+	}	
